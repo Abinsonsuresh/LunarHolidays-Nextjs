@@ -20,7 +20,9 @@ const Navbar = () => {
         </ul>
         <div>
             <div>
+                <Link href={"/"}>
                 <Button type={"button"} name={"Login"} icon="/user.svg" variant={"px-4 py-2 bg-green-500 text-white"}/>
+                </Link>
             </div>
         </div>
 
