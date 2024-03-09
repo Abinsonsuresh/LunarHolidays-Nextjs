@@ -13,7 +13,7 @@ const MainHome = () => {
 
         <div className="relative flex flex-col flex-1 xl:w-1/2 z-20">
           <div>
-            <p className="text-[52px] font-[700] leading-[120%]">Lunar Holidays Resort & Trek</p>
+            <p className="md:text-[59px] text-[50px] font-[700] leading-[120%]">Lunar Holidays Resort & Trek</p>
             {/* <p className="text-[52px] font-[700]"></p> */}
             <p className="mt-8 xl-max-w-[500px]">We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one app</p>
           </div>
