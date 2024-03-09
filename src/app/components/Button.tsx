@@ -11,8 +11,8 @@ type ButtonProps = {
 
 const Button = ({type, name,icon,variant}:ButtonProps) => {
   return (
-    <button type={type} className={`flex justify-center items-center rounded-full border ${variant}`}>
-        {icon && <Image src={icon} alt={name} className="w-24"/>}
+    <button type={type} className={`flex justify-center items-center rounded-full border gap-3 ${variant}`}>
+        {icon && <Image src={icon} alt={name}  width={24} height={24}/>}
         <label className="font-semibold">{name}</label>
     </button>
   )

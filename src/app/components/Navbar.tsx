@@ -1,3 +1,4 @@
+import Button from "./Button"
 
 const Navbar = () => {
   return (
@@ -9,7 +10,7 @@ const Navbar = () => {
         <div>Test2</div>
         <div>
             <div>
-                <button>Login</button>
+                <Button type={"button"} name={"Login"} icon="/user.svg" variant={"px-4 py-2 bg-green-500 text-white"}/>
             </div>
         </div>
 
