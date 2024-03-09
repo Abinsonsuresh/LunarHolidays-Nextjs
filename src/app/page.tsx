@@ -1,8 +1,13 @@
+import Test from './components/Test'
+import MainHome from './components/MainHome'
 
 export default function Home() {
   return (
    <>
-   <h1 className="text-xl">Hello</h1>
+
+
+   <MainHome/>
+
    </>
   );
 }
