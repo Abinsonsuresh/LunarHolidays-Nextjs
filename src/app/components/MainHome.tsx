@@ -52,8 +52,8 @@ const MainHome = () => {
           <div className=" z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-green-800 px-7 py-8">
 
             <div className="flex flex-col">
-              <div className="flex items-center justify-between">
-                <p className="font-[600] text-gray-20">Location</p>
+              <div className="flex items-center">
+                <p className="font-[600] text-gray-20">Location <span className='font-extralight'>(from)</span></p>
                 {/* <Image src="/close.svg" alt="close" width={24} height={24} /> */}
               </div>
               <p className="font-[750] text-xl text-white">Kodaikanal town</p>
