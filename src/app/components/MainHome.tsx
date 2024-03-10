@@ -1,15 +1,12 @@
-
-
 import Image from 'next/image'
 import Button from "./Button"
 
-//   }
 const MainHome = () => {
   return (
     <>
       <div className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row  ">
         <div className="absolute right-0 top-0 bg-pattern-2 bg-cover h-screen w-screen bg-center md:-right-28 xl:-top-60" />
-{/* zz */}
+
         <div className="relative z-20 flex flex-col flex-1 xl:w-1/2 "> 
           <div>
             <p className="md:text-[59px] text-[50px] font-[700] leading-[120%]">Lunar Holidays Resort & Trek</p>
@@ -48,13 +45,13 @@ const MainHome = () => {
 
 
         <div className=" flex flex-1 items-start ">
-          {/* zz -20 */}
+      
           <div className=" flex w-[268px] z-20 flex-col gap-8 rounded-3xl bg-green-500 px-7 py-8">
 
             <div className="flex flex-col">
               <div className="flex items-center">
                 <p className="font-[600] text-gray-50">Location <span className='font-extralight'>(from)</span></p>
-                {/* <Image src="/close.svg" alt="close" width={24} height={24} /> */}
+              
               </div>
               <p className="font-[750] text-xl text-white">Kodaikanal town</p>
             </div>
