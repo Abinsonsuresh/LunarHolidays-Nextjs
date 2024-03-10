@@ -24,7 +24,7 @@ const ServiceCard = ({ title, desc, icon }: CardProps) => {
             <div className="">
                 <p className="text-2xl font-bold">{title}</p>
                 <p className="mt-6 text-gray-500">{desc}</p>
-                
+
             </div>
         </li>
 
@@ -47,8 +47,8 @@ const Services = () => {
 
                 <div className="z-20 flex justify-center w-full flex-col lg:w-[60%] ">
                     <div className="flex items-start flex-col mb-12">
-                    <h2 className="font-[700] text-6xl">Our Services</h2>
-                    <p className="text-sm text-gray-400">Exclusive services provided by Lunar Holidays</p>
+                        <h2 className="font-[700] text-6xl">Our Services</h2>
+                        <p className="text-sm text-gray-400">Exclusive services provided by Lunar Holidays</p>
                     </div>
                     <div className="mt-6 ">
                         <ul className="grid md:grid-cols-2 gap-10">
@@ -65,7 +65,7 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, perspiciatis modi. Blanditiis?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, perspiciatis modi. Blanditiis?</p>
         </div>
     )
 }
