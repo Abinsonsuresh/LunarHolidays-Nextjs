@@ -39,7 +39,7 @@ const RoomCard = ({ background, title, desc }: CardProps) => {
 const ResortsCarousel = () => {
     return (
         <div className="lg:max-container relative flex flex-col  py-10 lg:mb-10 lg:py-20 xl:mb-20">
-            <div className="flex justify-center items-center flex-col my-6">
+            <div className="flex justify-center items-center flex-col my-6 p-2 text-center">
             <h3 className="text-4xl font-bold">Our rooms</h3>
             <p className="text-sm text-gray-500 font-medium">Exclusive rooms provided by LunarHolidays</p>
 
