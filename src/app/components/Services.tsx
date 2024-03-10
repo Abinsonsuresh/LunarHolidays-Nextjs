@@ -65,7 +65,7 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, perspiciatis modi. Blanditiis?</p>
+            <p className="text-center p-4 text-gray-500 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, perspiciatis modi. Blanditiis?</p>
         </div>
     )
 }
