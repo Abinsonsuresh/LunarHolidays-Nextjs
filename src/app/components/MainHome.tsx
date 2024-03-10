@@ -1,6 +1,5 @@
 
-// .hero-map {
-//     @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
+
 import Image from 'next/image'
 import Button from "./Button"
 
@@ -10,8 +9,8 @@ const MainHome = () => {
     <>
       <div className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row  ">
         <div className="absolute right-0 top-0 bg-pattern-2 bg-cover h-screen w-screen bg-center md:-right-28 xl:-top-60" />
-
-        <div className="relative flex flex-col flex-1 xl:w-1/2 z-20">
+{/* zz */}
+        <div className="relative flex flex-col flex-1 xl:w-1/2 "> 
           <div>
             <p className="md:text-[59px] text-[50px] font-[700] leading-[120%]">Lunar Holidays Resort & Trek</p>
             {/* <p className="text-[52px] font-[700]"></p> */}
@@ -49,7 +48,8 @@ const MainHome = () => {
 
 
         <div className=" flex flex-1 items-start ">
-          <div className=" z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-green-800 px-7 py-8">
+          {/* zz -20 */}
+          <div className=" flex w-[268px] flex-col gap-8 rounded-3xl bg-green-800 px-7 py-8">
 
             <div className="flex flex-col">
               <div className="flex items-center">

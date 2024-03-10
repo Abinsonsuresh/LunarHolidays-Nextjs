@@ -37,13 +37,13 @@ const Navbar = () => {
             </div>
         </div>
 
-        <div className='md:hidden flex justify-center items-center gap-3'>
-          <div className='flex justify-center items-center gap-3'>
+        <div className='md:hidden flex justify-center items-center gap-3  relative z-50 mobnav'>
+          <div className={!nav  ? 'flex justify-center items-center gap-3' : "hidden"}>
            
             <SlMenu className='cursor-pointer' onClick={()=>shownav()} />
           </div>
 
-          <div className={nav ? ('fixed  bg-primary shadow-2xl h-[100%] w-[60%] z-50 top-0 right-0 flex flex-col justify-between ease-in duration-100') : ('fixed right-[-100%]  h-[70%] flex flex-col items-center justify-between ease-in')}>
+          <div className={nav ? ('fixed  bg-white shadow-2xl h-[100%] w-[60%]  top-0 right-0 flex flex-col justify-between ease-in duration-100') : ('fixed right-[-100%]  h-[70%] flex flex-col items-center justify-between ease-in')}>
             <div className="absolute top-0 right-0 p-6">
               <VscChromeClose size={20} className='cursor-pointer' onClick={()=>shownav()}  />
             </div>
