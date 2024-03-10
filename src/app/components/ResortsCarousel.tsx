@@ -44,7 +44,7 @@ const ResortsCarousel = () => {
             <p className="text-sm text-gray-500 font-medium">Exclusive rooms provided by LunarHolidays</p>
 
             </div>
-            <div className="flex h-[300px] md:h-[550px] w-full items-start justify-start gap-8 overflow-x-auto hide-scrollbar ">
+            <div className="flex h-[300px] md:h-[550px] w-full items-start justify-start gap-8 overflow-x-auto hide-scrollbar p-2">
                 <RoomCard background="bg-bg-img-1" title="Rooms" desc="Klavarai, Kodaikanal" />
                 <RoomCard background="bg-bg-img-2" title="Rooms " desc="kookal, Kodaikanal" />
                 <RoomCard background="bg-bg-img-1" title="Rooms " desc="Klavarai, Kodaikanal" />
