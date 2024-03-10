@@ -39,6 +39,11 @@ const RoomCard = ({ background, title, desc }: CardProps) => {
 const ResortsCarousel = () => {
     return (
         <div className="lg:max-container relative flex flex-col  py-10 lg:mb-10 lg:py-20 xl:mb-20">
+            <div className="flex justify-center items-center flex-col my-6">
+            <h3 className="text-4xl font-bold">Our rooms</h3>
+            <p className="text-sm text-gray-500 font-medium">Exclusive rooms provided by LunarHolidays</p>
+
+            </div>
             <div className="flex h-[300px] md:h-[550px] w-full items-start justify-start gap-8 overflow-x-auto hide-scrollbar ">
                 <RoomCard background="bg-bg-img-1" title="Camp Stay" desc="Klavarai, Kodaikanal" />
                 <RoomCard background="bg-bg-img-2" title="Camp Stay" desc="kookal, Kodaikanal" />
