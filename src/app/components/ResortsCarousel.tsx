@@ -45,10 +45,10 @@ const ResortsCarousel = () => {
 
             </div>
             <div className="flex h-[300px] md:h-[550px] w-full items-start justify-start gap-8 overflow-x-auto hide-scrollbar ">
-                <RoomCard background="bg-bg-img-1" title="Camp Stay" desc="Klavarai, Kodaikanal" />
-                <RoomCard background="bg-bg-img-2" title="Camp Stay" desc="kookal, Kodaikanal" />
-                <RoomCard background="bg-bg-img-1" title="Camp Stay" desc="Klavarai, Kodaikanal" />
-                <RoomCard background="bg-bg-img-2" title="Camp Stay" desc="kookal, Kodaikanal" />
+                <RoomCard background="bg-bg-img-1" title="Rooms" desc="Klavarai, Kodaikanal" />
+                <RoomCard background="bg-bg-img-2" title="Rooms " desc="kookal, Kodaikanal" />
+                <RoomCard background="bg-bg-img-1" title="Rooms " desc="Klavarai, Kodaikanal" />
+                <RoomCard background="bg-bg-img-2" title="Rooms" desc="kookal, Kodaikanal" />
 
             </div>
 
