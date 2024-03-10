@@ -52,11 +52,11 @@ const CampingCarousel = () => {
             </div>
 
             <div className="flex justify-end mt-10 px-6 lg:-mt-60 lg:mr-6">
-                <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20  w-full overflow-hidden rounded-3xl">
-                    <h2 className="text-3xl font-[500] text-white">
+                <div className="bg-white bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 shadow-2xl  w-full overflow-hidden rounded-3xl">
+                    <h2 className="text-3xl font-[500] text-">
                         <strong>Camping Services</strong> Welcome to the jungle
                     </h2>
-                    <p className="text-[16px]  mt-5 text-white">
+                    <p className="text-[16px]  mt-5 text-">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos dolore laudantium necessitatibus non voluptatibus architecto, aperiam quaerat voluptatum voluptate! Quibusdam soluta eius tempora omnis hic neque amet pariatur eligendi ullam, a nobis.
                     </p>
                 </div>
