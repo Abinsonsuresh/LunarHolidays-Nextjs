@@ -51,7 +51,11 @@ const Navbar = () => {
             <div>
 
               <ul className='flex justify-start flex-col gap-9 p-6 mt-12 w-full'>
-           
+              {
+                NavLinks.map((items)=>(
+                    <Link className="text-gray-50 text-[16px] flex justify-start items-start" key={items.key} href={items.href}>{items.label}</Link>
+                ))
+            }
               </ul>
 
             </div>
