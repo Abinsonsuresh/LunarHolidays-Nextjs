@@ -3,6 +3,8 @@ export const NavLinks = [
     { href: '/', key: 'rooms', label: 'Rooms' },
     { href: '/', key: 'treking', label: 'Treking' },
     { href: '/', key: 'camping', label: 'Camping' },
+    { href: '/', key: 'Services', label: 'Services' },
+
 ]
 
 
