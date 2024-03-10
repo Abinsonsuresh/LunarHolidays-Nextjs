@@ -49,11 +49,11 @@ const MainHome = () => {
 
         <div className=" flex flex-1 items-start ">
           {/* zz -20 */}
-          <div className=" flex w-[268px] z-20 flex-col gap-8 rounded-3xl bg-green-800 px-7 py-8">
+          <div className=" flex w-[268px] z-20 flex-col gap-8 rounded-3xl bg-green-500 px-7 py-8">
 
             <div className="flex flex-col">
               <div className="flex items-center">
-                <p className="font-[600] text-gray-20">Location <span className='font-extralight'>(from)</span></p>
+                <p className="font-[600] text-gray-50">Location <span className='font-extralight'>(from)</span></p>
                 {/* <Image src="/close.svg" alt="close" width={24} height={24} /> */}
               </div>
               <p className="font-[750] text-xl text-white">Kodaikanal town</p>
@@ -61,11 +61,11 @@ const MainHome = () => {
 
             <div className="flex items-center justify-between">
               <div className="flex flex-col">
-                <p className="font-[600]  text-gray-20">Distance</p>
+                <p className="font-[600]  text-gray-50">Distance</p>
                 <p className="font-[750] text-xl text-white">13.28 km</p>
               </div>
               <div className="flex flex-col">
-                <p className="font-[600]  text-gray-20">Time</p>
+                <p className="font-[600]  text-gray-50">Time</p>
                 <p className="font-[750] text-xl text-white">21 min</p>
               </div>
             </div>
