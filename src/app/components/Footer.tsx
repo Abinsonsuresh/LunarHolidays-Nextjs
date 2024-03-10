@@ -3,12 +3,12 @@ import { NavLinks, Services } from "../Data/data"
 
 const Footer = () => {
   return (
-    <footer className="w-full  bg-green-500 text-white">
+    <footer className="w-full   text-black">
     <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-2 lg:px-0">
       <div className="inline-flex items-center">
      
       <div className="">
-            <div className="text-2xl font-bold"><span className="text-white">Lunar</span><span className="text-green-900 underline">Holidays</span></div>
+            <div className="text-2xl font-bold"><span className="text-green-400">Lunar</span><span className="text-green-900 underline">Holidays</span></div>
         </div>
       </div>
 
@@ -19,7 +19,7 @@ const Footer = () => {
         <h1 className="max-w-sm text-3xl font-bold">Ready to experience immersive holidays?</h1>
         <form action="" className="mt-4 inline-flex w-full items-center md:w-3/4">
           <input
-            className="flex h-10 w-full rounded-md border border-white bg-transparent px-3 py-2 text-sm placeholder:text-gray-200 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
+            className="flex h-10 w-full rounded-md border border-black bg-transparent px-3 py-2 text-sm placeholder:text-gray-900 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
             type="email"
             placeholder="Email"
           />
@@ -34,27 +34,27 @@ const Footer = () => {
       </div>
       <div className="mt-8 grid grid-cols gap-6 md:mt-0 lg:w-3/4 lg:grid-cols-3">
         <div className="mb-8 lg:mb-0">
-          <p className="mb-6 text-lg font-semibold text-gray-900 ">Menu</p>
-          <ul className="flex flex-col space-y-4 text-[14px] font-medium text-gray-200">
+          <p className="mb-6 text-lg font-medium text-gray-900 ">Menu</p>
+          <ul className="flex flex-col space-y-4 text-[14px]  text-gray-50 font-extralight">
           {
                 NavLinks.map((items)=>(
-                    <Link className="text-gray-200 text-[16px] flex justify-start items-start" key={items.key} href={items.href}>{items.label}</Link>
+                    <Link className=" text-[16px] flex justify-start items-start" key={items.key} href={items.href}>{items.label}</Link>
                 ))
             }
           </ul>
         </div>
         <div className="mb-8 lg:mb-0">
-          <p className="mb-6 text-lg font-semibold text-gray-900 ">Our Services</p>
-          <ul className="flex flex-col space-y-4 text-[14px] font-medium text-gray-200">
+          <p className="mb-6 text-lg font-medium text-gray-900 ">Our Services</p>
+          <ul className="flex flex-col space-y-4 text-[14px]  text-gray-50 font-extralight">
           {
                 Services.map((items)=>(
-                    <Link className="text-gray-200 text-[16px] flex justify-start items-start" key={items.key} href={items.href}>{items.label}</Link>
+                    <Link className=" text-[16px] flex justify-start items-start" key={items.key} href={items.href}>{items.label}</Link>
                 ))
             }
           </ul>
         </div>
         <div className="mb-8 lg:mb-0">
-          <p className="mb-6 text-lg font-semibold text-gray-900 ">Connect with us</p>
+          <p className="mb-6 text-lg font-medium text-gray-900 ">Connect with us</p>
           <div className="">
             <div className="list-none mb-10 flex space-x-5 indeterminate:justify-center">
               <li>
@@ -85,7 +85,7 @@ const Footer = () => {
       </div>
     </div>
 
-    <div className='flex justify-center items-center font-extralight bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 mt-12'>
+    <div className='flex justify-center items-center font-thin text-sm  mt-12'>
       <p>Copyright © 2024 Lunar Holidays</p>
   </div>
   </footer>
